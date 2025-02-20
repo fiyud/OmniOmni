@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../test/images
+test: ../valid/images
+
+nc: 4
+names: ['broken yolk', 'chamber', 'embryo', 'spoiled area']
+
+roboflow:
+  workspace: cvr-egg-monitoring
+  project: cvr-egg-4
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cvr-egg-monitoring/cvr-egg-4/dataset/2
