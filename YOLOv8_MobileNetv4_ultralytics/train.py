@@ -5,7 +5,7 @@
 # @File    : train.py
 # @Software: PyCharm
 
-from ultralytics import YOLO, RTDETR
+from ultralytics_1 import YOLO, RTDETR
 
 if __name__ == '__main__':
     teacher_model = RTDETR("D:/Eggg/CVR EGG 4.v2i.yolov11/rtdetr-x.pt")

@@ -5,7 +5,7 @@
 # @File    : train.py
 # @Software: PyCharm
 
-from ultralytics import YOLO
+from ultralytics_1 import YOLO
 
 if __name__ == '__main__':
     model = YOLO('D:/Eggg/CVR EGG 4.v2i.yolov11/weight13/weights/best.pt')

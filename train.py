@@ -9,11 +9,11 @@ from ultralytics import YOLO, RTDETR
 
 if __name__ == '__main__':
     # model = YOLO('D:/Eggg/CVR EGG 4.v2i.yolov11/YOLOv8_MobileNetv4_ultralytics/ultralytics/cfg/models/v8/yolov8s-mobilenetv4.yaml')
-    model = YOLO(r'D:\Eggg\CVR EGG 4.v2i.yolov11\weight18\weights\best.pt')
+    model = YOLO(r'C:\Users\Admin\Desktop\Desktop\OmniOmni\YOLOv8_MobileNetv4_ultralytics\ultralytics\cfg\models\v12\yolov12_seg.yaml')
 
     # model.load('yolov8n.pt') # loading pretrain weights
     # print(model)
-    teacher_model = YOLO(r"C:\Users\ADMIN\Downloads\yolo11x-seg.pt")
+    # teacher_model = YOLO(r"C:\Users\ADMIN\Downloads\yolo11x-seg.pt")
 
     results=model.train(data=r'D:/Eggg/CVR EGG 4.v2i.yolov11/data.yaml',
                         epochs=150,#训练轮数
